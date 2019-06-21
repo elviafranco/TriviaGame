@@ -88,7 +88,7 @@ $("#start").click(function () {
     $('#submit').show();
     $('#start').hide();
     $('#timeleft').show();
-    var timeleft = 20;
+    var timeleft = 30;
     var timer = setInterval(function () {
         timeleft--;
         document.getElementById("time").textContent = timeleft;
@@ -106,7 +106,7 @@ $("#start").click(function () {
         $('#submit').hide();
         displayResults();
         clearTimeout();
-    }, 20000);
+    }, 30000);
 
 
     // This function will display the quiz 
